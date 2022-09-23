@@ -38,7 +38,13 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 ![3_t_test](https://github.com/pcar22/MechaCar_Statistical_Analysis/blob/main/Images/3_t_test.png)
 
-
+## Study Design: MechaCar vs Competition.
+    - The metric tested will be cost of the vehicle and highway fuel efficiency.
+    - Null hypothesis - There is no significant difference of metrics between MechaCar and the competition in fuel efficiency.
+    - Alternative hypothesis - There is a significant difference in the metrics between MechaCar and the competition fuel efficiency.
+    - We would use the Two Sample t-test on the data. This test would show if there is a significant difference and we can chart the results.
+    - We would need they auto price from both the competition and MechaCar as well as the estimated fuel efficiency from both the competition and MechaCar.
+    
 
 
 
