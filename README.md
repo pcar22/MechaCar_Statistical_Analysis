@@ -18,29 +18,47 @@
 
 ![total_summary](https://github.com/pcar22/MechaCar_Statistical_Analysis/blob/main/Images/total_summary.png)
 
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.
+1. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually?
+   Why or why not?
+    - The numbers in the image above show a variance of 62 and that falls within the design specification as a total of all lots.
+    - The numbers shown below indicate that Lot1 and Lot2 are within specifications, however Lot3 shows a variance of 170 and that is not within spec's.
+
 ![lot_summary](https://github.com/pcar22/MechaCar_Statistical_Analysis/blob/main/Images/lot_summary.png)
 
-
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.
-1. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
-    - Testing line.
-
-
-
-
-
-
-
-
-
-
-
-
-
+## T-Test on Suspension Coils
 
 ![t-test](https://github.com/pcar22/MechaCar_Statistical_Analysis/blob/main/Images/t_test.png)
 
+1. Is the PSI across all manufacturing lots statistically different from the population mean of 1,500 pounds per square inch?
+    - Based on the significance value of 0.05. The p-value in the above image is equal to 0.06028, therefore we fail to reject the null hypothesis for all manufacturing lots.
+2. Is the PSI for each manufacturing lot statistically different from the population mean of 1,500 pounds per square inch?
+    - Based on the significance value of 0.05. Lot 1 and lot 2 are above the 0.05, therefore we fail to reject the null hypothesis.
+    - Lot 3 indicates a p-value equal to 0.04168 which is below the established 0.05, therefore we reject the null hypothesis.
+
 ![3_t_test](https://github.com/pcar22/MechaCar_Statistical_Analysis/blob/main/Images/3_t_test.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
